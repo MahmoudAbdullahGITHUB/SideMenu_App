@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5edcff"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="288dp"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerPane"
+        android:layout_gravity="start"
+        >
+
+        <ListView
+            android:id="@+id/newList"
+            android:layout_width="288dp"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:background="#ffffffff"
+            >
+
+        </ListView>
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
